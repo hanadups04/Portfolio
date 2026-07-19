@@ -339,14 +339,14 @@ function Projects() {
 //   );
 // }
 
-function Field({ label, body }: { label: string; body: string }) {
-  return (
-    <div>
-      <div className="text-xs font-mono uppercase tracking-wider text-pink">{label}</div>
-      <p className="mt-2 text-muted-foreground leading-relaxed">{body}</p>
-    </div>
-  );
-}
+// function Field({ label, body }: { label: string; body: string }) {
+//   return (
+//     <div>
+//       <div className="text-xs font-mono uppercase tracking-wider text-pink">{label}</div>
+//       <p className="mt-2 text-muted-foreground leading-relaxed">{body}</p>
+//     </div>
+//   );
+// }
 
 function Experience() {
   return (
