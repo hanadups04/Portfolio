@@ -22,7 +22,7 @@ export default function ProjectDetail() {
               <img src={p.cover} alt={`${p.title} cover`} width={768} height={768} className="w-full aspect-[4/3] object-cover" />
             </div>
             <div className="mt-4 grid grid-cols-3 gap-3">
-              {p.screenshots.map((s, i) => (
+              {p.preview.map((s, i) => (
                 <div key={i} className="card-elevate rounded-xl border border-border bg-surface/60 overflow-hidden">
                   <img src={s.src} alt={s.caption} loading="lazy" className="w-full aspect-square object-cover" />
                 </div>

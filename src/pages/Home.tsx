@@ -13,21 +13,21 @@ import samplepicture1 from "../assets/samplepicture1.png";
 // import sampleportrait from "../assets/sampleportrait.png";
 
 const skills = {
-  Frontend: ["React", "Next.js", "TypeScript", "Tailwind", "React Native", "Motion"],
-  Backend: ["Node.js", "Bun", "Go", "tRPC", "GraphQL", "REST"],
-  Database: ["PostgreSQL", "Redis", "ClickHouse", "Drizzle", "Prisma"],
-  Tools: ["Git", "Docker", "Vercel", "Cloudflare", "Figma", "Linear"],
+  Frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+  Backend: ["PHP", "REST"],
+  Database: ["Supabase", "PostgreSQL", "Firebase", "NoSQL", "SQL"],
+  // Tools: ["Github", "Docker", "Vercel", "Cloudflare", "Figma", "Linear"],
+  Tools: ["Github", "Vercel", "Cloudflare", "Postman", "Figma"],
 };
 
 const services = [
   { icon: Globe, title: "Web Development", body: "Marketing sites, dashboards, and full SaaS products built with Next.js, React, and modern edge stacks." },
-  { icon: Smartphone, title: "Mobile Development", body: "Cross-platform apps with React Native and Expo, shipped to App Store and Play Store with care for performance." },
+  // { icon: Smartphone, title: "Mobile Development", body: "Cross-platform apps with React Native and Expo, shipped to App Store and Play Store with care for performance." },
 ];
 
 const experience = [
-  { role: "Senior Software Engineer", org: "Northwind Labs", period: "2024 — Present", body: "Leading the dashboard platform team. Drove a rewrite that cut p95 load from 4.2s to 0.6s." },
-  { role: "Full-Stack Engineer", org: "Cobalt & Co.", period: "2022 — 2024", body: "Shipped customer-facing features across web and mobile. Owned the design system migration." },
-  { role: "Software Engineering Intern", org: "Helix Robotics", period: "Summer 2021", body: "Built internal tooling for the perception team. Closed 30+ tickets in 12 weeks." },
+  { role: "Software Quality Assurance Tester Intern", org: "LBC Express Inc.", period: "2025 - 2026", body: "Tested LBC's App revamp and website enhancements, documented and reported bugs." },
+  { role: "Data Analyst Intern", org: "LBC Express Inc.", period: "2025 - 2026", body: "Created dashboards using Microsoft Power BI to analyze LBC's competitors performance in terms of pricing and social media standing." },
 ];
 
 // const caseStudies = [
@@ -125,6 +125,20 @@ function PortraitCard() {
       <div className="relative rounded-[2rem] border border-border/70 bg-surface-elevated p-3 glow-pink overflow-hidden">
         <div className="absolute inset-0 pointer-events-none rounded-[2rem] bg-gradient-to-br from-pink/10 via-transparent to-accent/10" />
         <img src={samplepicture1} alt="Portrait of Alex Rivera" width={768} height={768} className="rounded-[1.5rem] w-full aspect-square object-cover" />
+        <div className="absolute bottom-5 left-5 right-5 flex items-center justify-between rounded-2xl border border-border/70 bg-background/70 backdrop-blur px-4 py-3">
+              <div>
+                <div className="text-sm font-medium">
+                  Hannah Rea Duplon
+                </div>
+                <div className="text-xs text-muted-foreground">
+                  Full Stack · Remote
+                </div>
+              </div>
+              <div className="flex items-center gap-1.5 text-xs text-primary-soft">
+                <span className="size-2 rounded-full bg-primary animate-pulse" />
+                Available
+              </div>
+            </div>
       </div>
     </div>
   );
@@ -189,9 +203,8 @@ function Services() {
 
 function Stats() {
   const items = [
-    { value: 6, suffix: "+", label: "Years building" },
-    { value: 42, suffix: "", label: "Shipped projects" },
-    { value: 12, suffix: "k", label: "Users served" },
+    { value: 1, label: "Years building" },
+    { value: 2, suffix: "", label: "Shipped projects" },
     { value: 99, suffix: "%", label: "On-time delivery" },
   ];
   return (
@@ -279,7 +292,7 @@ function Projects() {
           <Reveal delay={80}><h2 className="text-3xl md:text-4xl font-bold mt-3">Selected work.</h2></Reveal>
         </div>
         <Reveal delay={120}>
-          <a href="https://github.com" className="text-sm text-muted-foreground hover:text-foreground inline-flex items-center gap-1">
+          <a href="https://github.com/hanadups04" className="text-sm text-muted-foreground hover:text-foreground inline-flex items-center gap-1">
             More on GitHub <ArrowUpRight className="h-4 w-4" />
           </a>
         </Reveal>
@@ -436,7 +449,7 @@ function Contact() {
                 <Mail className="h-4 w-4" /> hello@example.com
               </a>
               <a href="https://twitter.com" className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-medium hover:bg-surface transition">
-                <Send className="h-4 w-4" /> @alexrivera
+                <Send className="h-4 w-4" /> @hannahduplon
               </a>
             </div>
           </div>
@@ -450,7 +463,7 @@ function Footer() {
   return (
     <footer className="border-t border-border/60 mt-10">
       <div className="mx-auto max-w-6xl px-6 py-10 flex flex-wrap items-center justify-between gap-4 text-sm text-muted-foreground">
-        <div>© {new Date().getFullYear()} Alex Rivera. Built with care.</div>
+        <div>© {new Date().getFullYear()} Hannah Duplon. Built with care.</div>
         <div className="flex items-center gap-5">
           <a href="https://github.com" className="hover:text-foreground"><Github className="h-4 w-4" /></a>
           <a href="https://linkedin.com" className="hover:text-foreground"><Linkedin className="h-4 w-4" /></a>
