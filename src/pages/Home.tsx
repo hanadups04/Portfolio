@@ -185,7 +185,7 @@ function Hero() {
 
 function GitHub() {
   return(
-    <div className="mx-auto max-w-6xl flex justify-start pl-12">
+    <div className="mx-auto max-w-6xl flex justify-center">
       <GitHubCalendar 
       username="hanadups04"
       colorScheme="dark"
