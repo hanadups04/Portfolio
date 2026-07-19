@@ -54,7 +54,7 @@ const experience = [
 const certifications = [
   { name: "Database IT Specialist — Certiport", issuer: "Certiport", year: "2024", badge: cert1 },
   { name: "Cybersecurity Specialist - Certiport", issuer: "Certiport", year: "2026", badge: cert2 },
-  { name: "Cum Laude", issuer: "NU - Dasmarinas", year: "2026", badge: cert2 },
+  { name: "Cum Laude", issuer: "NU - Dasmarinas", year: "Class of 2026", badge: cert2 },
 ];
 
 const learning = [
