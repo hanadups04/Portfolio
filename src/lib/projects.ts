@@ -1,5 +1,5 @@
-import project1 from "../assets/project-1.jpg";
-import project2 from "../assets/project-2.jpg";
+// import project1 from "../assets/project-1.jpg";
+// import project2 from "../assets/project-2.jpg";
 import Editorially_Logo from "../assets/Editorially_Logo.png";
 import Editorially1 from "../assets/Editorially1.png";
 import Editorially2 from "../assets/Editorially2.png";
@@ -102,7 +102,7 @@ export const projects: Project[] = [
     category: "AI TOOL",
     year: "2026",
     short: "A tool for students to analyze and visualize their research concepts. It's goal is to help you see where the holes are in your paper, fix it, and produce an overall better paper.",
-    cover: project2,
+    cover: Arpeps_Logo,
     preview: [
       { src: Editorially1, caption: "Reader Homepage" },
       { src: Editorially2, caption: "Project Details View" },
@@ -134,7 +134,7 @@ export const projects: Project[] = [
     category: "AI TOOL",
     year: "2026",
     short: "A tool for students to analyze and visualize their research concepts. It's goal is to help you see where the holes are in your paper, fix it, and produce an overall better paper.",
-    cover: project2,
+    cover: Arpeps_Logo,
     preview: [
       { src: Editorially1, caption: "Reader Homepage" },
       { src: Editorially2, caption: "Project Details View" },
