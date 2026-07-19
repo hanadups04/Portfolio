@@ -3,14 +3,14 @@ import {
   ArrowUpRight, Download, Github, Linkedin, Mail, MapPin, Globe, Smartphone,
   Code2, Database, Wrench, Layers, Sparkles, Cpu, Send,
 } from "lucide-react";
-import portrait from "../assets/portrait.jpg";
+// import portrait from "../assets/portrait.jpg";
 import { projects } from "../lib/projects";
 import { Reveal, CountUp } from "../components/reveal";
 import cert1 from "../assets/cert1.png";
 import cert2 from "../assets/cert2.png";
-import samplepicture from "../assets/samplepicture.png";
+// import samplepicture from "../assets/samplepicture.png";
 import samplepicture1 from "../assets/samplepicture1.png";
-import sampleportrait from "../assets/sampleportrait.png";
+// import sampleportrait from "../assets/sampleportrait.png";
 
 const skills = {
   Frontend: ["React", "Next.js", "TypeScript", "Tailwind", "React Native", "Motion"],
