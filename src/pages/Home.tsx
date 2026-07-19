@@ -88,12 +88,12 @@ function Header() {
       <div className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 font-display font-semibold tracking-tight">
           <span className="h-2 w-2 rounded-full bg-pink animate-pulse-glow" />
-          alex.rivera
+          hannah.duplon
         </Link>
         <nav className="hidden md:flex items-center gap-7 text-sm text-muted-foreground">
           <a href="#about" className="hover:text-foreground transition-colors">About</a>
           <a href="#work" className="hover:text-foreground transition-colors">Work</a>
-          <a href="#case-studies" className="hover:text-foreground transition-colors">Case Studies</a>
+          <a href="#case-studies" className="hover:text-foreground transition-colors">Projects</a>
           <a href="#experience" className="hover:text-foreground transition-colors">Experience</a>
           <a href="#contact" className="hover:text-foreground transition-colors">Contact</a>
         </nav>
@@ -143,7 +143,7 @@ function Hero() {
             Building software that <span className="text-gradient-pink">feels considered</span>.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
-            I'm Alex — a full-stack engineer focused on web and mobile. I help teams ship products that are fast, accessible, and a little bit beautiful.
+            I'm Hannah — a full-stack engineer focused on web and mobile. I help teams ship products that are fast, accessible, and a little bit beautiful.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#work" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:opacity-90 transition">
@@ -154,7 +154,7 @@ function Hero() {
             </a>
           </div>
           <div className="mt-10 flex items-center gap-5 text-sm text-muted-foreground">
-            <span className="flex items-center gap-2"><MapPin className="h-4 w-4" /> Lisbon, PT</span>
+            <span className="flex items-center gap-2"><MapPin className="h-4 w-4" /> Mendez, Cavite</span>
             <a href="https://github.com" className="flex items-center gap-2 hover:text-foreground"><Github className="h-4 w-4" /> github</a>
             <a href="https://linkedin.com" className="flex items-center gap-2 hover:text-foreground"><Linkedin className="h-4 w-4" /> linkedin</a>
           </div>
