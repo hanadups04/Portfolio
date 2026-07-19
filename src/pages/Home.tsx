@@ -11,6 +11,8 @@ import cert2 from "../assets/cert2.png";
 // import samplepicture from "../assets/samplepicture.png";
 import samplepicture1 from "../assets/samplepicture1.png";
 // import sampleportrait from "../assets/sampleportrait.png";
+import { GitHubCalendar } from "react-github-calendar";
+
 
 const skills = {
   Frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
@@ -52,12 +54,13 @@ const experience = [
 const certifications = [
   { name: "Database IT Specialist — Certiport", issuer: "Certiport", year: "2024", badge: cert1 },
   { name: "Cybersecurity Specialist - Certiport", issuer: "Certiport", year: "2026", badge: cert2 },
+  { name: "Cum Laude", issuer: "NU - Dasmarinas", year: "2026", badge: cert2 },
 ];
 
 const learning = [
-  { name: "Rust", note: "Building a small CLI to feel out ownership in real code." },
-  { name: "WebGPU", note: "Exploring compute shaders for client-side data viz." },
-  { name: "Distributed Systems", note: "Working through 'Designing Data-Intensive Applications' a second time." },
+  { name: "Next.js", note: "Building a project using Next.js" },
+  { name: "Arpeps", note: "Currently developing Arpeps" },
+  { name: "Typscript", note: "Currently learning typescript" },
 ];
 
 export default function Home() {
@@ -66,6 +69,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <GitHub />
         <Services />
         <Stats />
         <About />
@@ -176,6 +180,35 @@ function Hero() {
         <Reveal delay={150}><PortraitCard /></Reveal>
       </div>
     </section>
+  );
+}
+
+function GitHub() {
+  return(
+    <div className="mx-auto max-w-6xl flex justify-start pl-12">
+      <GitHubCalendar 
+      username="hanadups04"
+      colorScheme="dark"
+      theme={{
+        light: [
+          "oklch(0.97 0 0)",          
+          "oklch(0.92 0.06 350)",     
+          "oklch(0.84 0.12 350)",     
+          "oklch(0.72 0.21 350)",     
+          "oklch(0.60 0.25 350)",     
+        ],
+        dark: [
+          "oklch(0.24 0.02 350)",     
+          "oklch(0.40 0.08 350)",
+          "oklch(0.55 0.14 350)",
+          "oklch(0.72 0.21 350)",     
+          "oklch(0.82 0.24 350)",     
+        ],
+      }}
+      blockSize={15}
+      blockMargin={4}
+      fontSize={14} />
+   </div>
   );
 }
 
@@ -389,7 +422,7 @@ function Experience() {
 function Certifications() {
   return (
     <section className="mx-auto max-w-6xl px-6 py-20">
-      <Reveal><SectionLabel>Certifications</SectionLabel></Reveal>
+      <Reveal><SectionLabel>Certifications and Achievements</SectionLabel></Reveal>
       <Reveal delay={80}><h2 className="text-3xl md:text-4xl font-bold mt-3">Credentials.</h2></Reveal>
       <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
         {certifications.map((c, i) => (
