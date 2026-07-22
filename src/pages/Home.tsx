@@ -161,7 +161,7 @@ function Hero() {
             Building software that <span className="text-gradient-pink">feels considered</span>.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
-            I'm Hannah — a full-stack engineer focused on web and mobile. I help teams ship products that are fast, accessible, and a little bit beautiful.
+            I'm Hannah — a full-stack engineer focused on web applications. I help teams ship products that are fast, accessible, and a little bit beautiful.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#work" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:opacity-90 transition">
@@ -238,7 +238,8 @@ function Stats() {
   const items = [
     { value: 1, label: "Years building" },
     { value: 2, suffix: "", label: "Shipped projects" },
-    { value: 99, suffix: "%", label: "On-time delivery" },
+    { value: 0, suffix: "", label: "Days until last commit on Github" },
+    { value: 100, suffix: "", label: "Sleepless Nights" },
   ];
   return (
     <section className="mx-auto max-w-6xl px-6 py-12">
@@ -479,7 +480,7 @@ function Contact() {
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a href="mailto:hello@example.com" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:opacity-90 transition">
-                <Mail className="h-4 w-4" /> hello@example.com
+                <Mail className="h-4 w-4" /> duplonhannah08@gmail.com
               </a>
               <a href="https://twitter.com" className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-medium hover:bg-surface transition">
                 <Send className="h-4 w-4" /> @hannahduplon
