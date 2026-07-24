@@ -54,7 +54,7 @@ const experience = [
 const certifications = [
   { name: "Database IT Specialist — Certiport", issuer: "Certiport", year: "2024", badge: cert1 },
   { name: "Cybersecurity Specialist - Certiport", issuer: "Certiport", year: "2026", badge: cert2 },
-  { name: "Cum Laude", issuer: "NU - Dasmarinas", year: "Class of 2026", badge: cert2 },
+  // { name: "Cum Laude", issuer: "NU - Dasmarinas", year: "Class of 2026", badge: cert2 },
 ];
 
 const learning = [
@@ -155,13 +155,13 @@ function Hero() {
       <div className="relative mx-auto max-w-6xl px-6 pt-20 pb-24 grid lg:grid-cols-[1.1fr_0.9fr] gap-16 items-center">
         <Reveal>
           <div className="inline-flex items-center gap-2 rounded-full border border-border/60 bg-surface/60 px-3 py-1 text-xs text-muted-foreground mb-6">
-            <Sparkles className="h-3.5 w-3.5 text-pink" /> Web & Mobile Developer · Remote
+            <Sparkles className="h-3.5 w-3.5 text-pink" /> Web Developer · Remote
           </div>
           <h1 className="font-display text-5xl md:text-7xl font-bold leading-[1.02] tracking-tight">
-            Building software that <span className="text-gradient-pink">feels considered</span>.
+            Building software that <span className="text-gradient-pink">solves real-world problems.</span>.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
-            I'm Hannah — a full-stack engineer focused on web applications. I help teams ship products that are fast, accessible, and a little bit beautiful.
+            I'm Hannah — a full-stack engineer focused on web applications. I create side projects that solve real-world problems while exploring new technologies and delivering fast, accessible, and intuitive user experiences.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#work" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:opacity-90 transition">
@@ -173,8 +173,8 @@ function Hero() {
           </div>
           <div className="mt-10 flex items-center gap-5 text-sm text-muted-foreground">
             <span className="flex items-center gap-2"><MapPin className="h-4 w-4" /> Mendez, Cavite</span>
-            <a href="https://github.com" className="flex items-center gap-2 hover:text-foreground"><Github className="h-4 w-4" /> github</a>
-            <a href="https://linkedin.com" className="flex items-center gap-2 hover:text-foreground"><Linkedin className="h-4 w-4" /> linkedin</a>
+            <a href="https://github.com/hanadups04" className="flex items-center gap-2 hover:text-foreground"><Github className="h-4 w-4" /> github</a>
+            <a href="www.linkedin.com/in/hannah-duplon-54a155276" className="flex items-center gap-2 hover:text-foreground"><Linkedin className="h-4 w-4" /> linkedin</a>
           </div>
         </Reveal>
         <Reveal delay={150}><PortraitCard /></Reveal>
@@ -239,7 +239,7 @@ function Stats() {
     { value: 1, label: "Years building" },
     { value: 2, suffix: "", label: "Shipped projects" },
     { value: 0, suffix: "", label: "Days until last commit on Github" },
-    { value: 100, suffix: "", label: "Sleepless Nights" },
+    // { value: 100, suffix: "", label: "Sleepless Nights" },
   ];
   return (
     <section className="mx-auto max-w-6xl px-6 py-12">
@@ -479,12 +479,12 @@ function Contact() {
               I'm taking on a small number of projects through 2026. If you have something in mind — a product, a rebuild, or just a conversation — I'd love to hear about it.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <a href="mailto:hello@example.com" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:opacity-90 transition">
+              <a href="mailto:duplonhannah08@gmail.com" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:opacity-90 transition">
                 <Mail className="h-4 w-4" /> duplonhannah08@gmail.com
               </a>
-              <a href="https://twitter.com" className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-medium hover:bg-surface transition">
+              {/* <a href="https://twitter.com" className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-medium hover:bg-surface transition">
                 <Send className="h-4 w-4" /> @hannahduplon
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -497,7 +497,7 @@ function Footer() {
   return (
     <footer className="border-t border-border/60 mt-10">
       <div className="mx-auto max-w-6xl px-6 py-10 flex flex-wrap items-center justify-between gap-4 text-sm text-muted-foreground">
-        <div>© {new Date().getFullYear()} Hannah Duplon. Built with care.</div>
+        <div>© {new Date().getFullYear()} Hannah Duplon. Developer.</div>
         <div className="flex items-center gap-5">
           <a href="https://github.com" className="hover:text-foreground"><Github className="h-4 w-4" /></a>
           <a href="https://linkedin.com" className="hover:text-foreground"><Linkedin className="h-4 w-4" /></a>
