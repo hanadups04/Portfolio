@@ -278,7 +278,7 @@ function About() {
               <a href={Resume} download="DUPLON_RESUME_SE.pdf" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:opacity-90 transition">
                 <Download className="h-4 w-4" /> Download CV
               </a>
-              <a href="#contact" className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-medium hover:bg-surface transition">Email me</a>
+              <a href="mailto:duplonhannah08@gmail.com" className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-medium hover:bg-surface transition">Email me</a>
             </div>
           </div>
         </Reveal>
