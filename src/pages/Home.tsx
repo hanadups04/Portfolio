@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import {
   ArrowUpRight, Download, Github, Linkedin, Mail, MapPin, Globe,
-  Code2, Database, Wrench, Layers, Sparkles, Cpu, Send,
+  Code2, Database, Wrench, Layers, Sparkles, Cpu
 } from "lucide-react";
 // import portrait from "../assets/portrait.jpg";
 import { projects } from "../lib/projects";
