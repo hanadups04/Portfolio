@@ -24,7 +24,7 @@ const skills = {
 };
 
 const services = [
-  { icon: Globe, title: "Web Development", body: "Marketing sites, dashboards, and full SaaS products built with Next.js, React, and modern edge stacks." },
+  { icon: Globe, title: "Web Development", body: "Building responsive, scalable, and quality web applications." },
   // { icon: Smartphone, title: "Mobile Development", body: "Cross-platform apps with React Native and Expo, shipped to App Store and Play Store with care for performance." },
 ];
 
