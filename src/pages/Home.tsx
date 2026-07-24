@@ -158,7 +158,7 @@ function Hero() {
             <Sparkles className="h-3.5 w-3.5 text-pink" /> Web Developer · Remote
           </div>
           <h1 className="font-display text-5xl md:text-7xl font-bold leading-[1.02] tracking-tight">
-            Building software that <span className="text-gradient-pink">solves real-world problems.</span>.
+            Building software that <span className="text-gradient-pink">solves real-world problems.</span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
             I'm Hannah — a full-stack engineer focused on web applications. I create side projects that solve real-world problems while exploring new technologies and delivering fast, accessible, and intuitive user experiences.
