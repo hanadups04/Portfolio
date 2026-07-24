@@ -12,6 +12,7 @@ import cert2 from "../assets/cert2.png";
 import samplepicture1 from "../assets/samplepicture1.png";
 // import sampleportrait from "../assets/sampleportrait.png";
 import { GitHubCalendar } from "react-github-calendar";
+import Resume from "../assets/DUPLON_RESUME_SE.pdf";
 
 
 const skills = {
@@ -274,7 +275,7 @@ function About() {
             <p>I'm Hannah — a full-stack developer passionate about building modern web applications that solve real-world problems. I enjoy turning ideas into functional, user-friendly products while exploring new technologies and continuously improving my skills</p>
             {/* <p>Outside of code, I read a lot of design history, run too slowly, and tinker with illustration in Procreate.</p> */}
             <div className="flex flex-wrap gap-3 pt-2">
-              <a href="#" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:opacity-90 transition">
+              <a href={Resume} download="DUPLON_RESUME_SE.pdf" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:opacity-90 transition">
                 <Download className="h-4 w-4" /> Download CV
               </a>
               <a href="#contact" className="inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-medium hover:bg-surface transition">Email me</a>
