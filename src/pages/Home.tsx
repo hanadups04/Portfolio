@@ -271,8 +271,8 @@ function About() {
         </Reveal>
         <Reveal delay={120}>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
-            <p>I've spent the last six years shipping web and mobile products at startups and product teams. My favorite work sits at the seam where engineering meets craft — taking a messy idea and turning it into something fast, accessible, and pleasant to use.</p>
-            <p>Outside of code, I read a lot of design history, run too slowly, and tinker with illustration in Procreate.</p>
+            <p>I'm Hannah — a full-stack developer passionate about building modern web applications that solve real-world problems. I enjoy turning ideas into functional, user-friendly products while exploring new technologies and continuously improving my skills</p>
+            {/* <p>Outside of code, I read a lot of design history, run too slowly, and tinker with illustration in Procreate.</p> */}
             <div className="flex flex-wrap gap-3 pt-2">
               <a href="#" className="inline-flex items-center gap-2 rounded-full bg-primary text-primary-foreground px-5 py-2.5 text-sm font-medium hover:opacity-90 transition">
                 <Download className="h-4 w-4" /> Download CV
