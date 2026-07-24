@@ -95,71 +95,71 @@ export const projects: Project[] = [
       { src: Arpeps3, caption: "Paper View" },
       { src: Arpeps4, caption: "Concept Graph Visualizer" },
     ],
-  },
-  {
-    slug: "SIS",
-    title: "SIS",
-    category: "AI TOOL",
-    year: "2026",
-    short: "A tool for students to analyze and visualize their research concepts. It's goal is to help you see where the holes are in your paper, fix it, and produce an overall better paper.",
-    cover: Arpeps_Logo,
-    preview: [
-      { src: Editorially1, caption: "Reader Homepage" },
-      { src: Editorially2, caption: "Project Details View" },
-      { src: Editorially3, caption: "Content Management" },
-    ],
-    problem:
-      "Most run trackers feel like spreadsheets. Casual runners wanted motivation and narrative, not just split times and pace charts.",
-    solution:
-      "Designed an app where each week becomes an illustrated 'chapter'. Runs sync from HealthKit and the app procedurally renders an animated weekly recap.",
-    role: "Solo developer and designer — shipped to TestFlight with 1,200 beta users.",
-    challenges: [
-      "Smooth procedural animation on lower-end Android devices.",
-      "Background sync and battery cost.",
-      "Designing an onboarding that didn't ask for everything up front.",
-    ],
-    tech: ["React", "Javascript", "CSS3", "Supabase", "Firebase Hosting"],
-    github: "https://github.com",
-    live: "https://example.com",
-    demoUrl: "https://example.com",
-    screenshots: [
-      { src: Arpeps2, caption: "Paper Analysis" },
-      { src: Arpeps3, caption: "Paper View" },
-      { src: Arpeps4, caption: "Concept Graph Visualizer" },
-    ],
-  },
-  {
-    slug: "buslink",
-    title: "Buslink",
-    category: "AI TOOL",
-    year: "2026",
-    short: "A tool for students to analyze and visualize their research concepts. It's goal is to help you see where the holes are in your paper, fix it, and produce an overall better paper.",
-    cover: Arpeps_Logo,
-    preview: [
-      { src: Editorially1, caption: "Reader Homepage" },
-      { src: Editorially2, caption: "Project Details View" },
-      { src: Editorially3, caption: "Content Management" },
-    ],
-    problem:
-      "Most run trackers feel like spreadsheets. Casual runners wanted motivation and narrative, not just split times and pace charts.",
-    solution:
-      "Designed an app where each week becomes an illustrated 'chapter'. Runs sync from HealthKit and the app procedurally renders an animated weekly recap.",
-    role: "Solo developer and designer — shipped to TestFlight with 1,200 beta users.",
-    challenges: [
-      "Smooth procedural animation on lower-end Android devices.",
-      "Background sync and battery cost.",
-      "Designing an onboarding that didn't ask for everything up front.",
-    ],
-    tech: ["React", "Javascript", "CSS3", "Supabase", "Firebase Hosting"],
-    github: "https://github.com",
-    live: "https://example.com",
-    demoUrl: "https://example.com",
-    screenshots: [
-      { src: Arpeps2, caption: "Paper Analysis" },
-      { src: Arpeps3, caption: "Paper View" },
-      { src: Arpeps4, caption: "Concept Graph Visualizer" },
-    ],
-  },
+  }
+  // {
+  //   slug: "SIS",
+  //   title: "SIS",
+  //   category: "AI TOOL",
+  //   year: "2026",
+  //   short: "A tool for students to analyze and visualize their research concepts. It's goal is to help you see where the holes are in your paper, fix it, and produce an overall better paper.",
+  //   cover: Arpeps_Logo,
+  //   preview: [
+  //     { src: Editorially1, caption: "Reader Homepage" },
+  //     { src: Editorially2, caption: "Project Details View" },
+  //     { src: Editorially3, caption: "Content Management" },
+  //   ],
+  //   problem:
+  //     "Most run trackers feel like spreadsheets. Casual runners wanted motivation and narrative, not just split times and pace charts.",
+  //   solution:
+  //     "Designed an app where each week becomes an illustrated 'chapter'. Runs sync from HealthKit and the app procedurally renders an animated weekly recap.",
+  //   role: "Solo developer and designer — shipped to TestFlight with 1,200 beta users.",
+  //   challenges: [
+  //     "Smooth procedural animation on lower-end Android devices.",
+  //     "Background sync and battery cost.",
+  //     "Designing an onboarding that didn't ask for everything up front.",
+  //   ],
+  //   tech: ["React", "Javascript", "CSS3", "Supabase", "Firebase Hosting"],
+  //   github: "https://github.com",
+  //   live: "https://example.com",
+  //   demoUrl: "https://example.com",
+  //   screenshots: [
+  //     { src: Arpeps2, caption: "Paper Analysis" },
+  //     { src: Arpeps3, caption: "Paper View" },
+  //     { src: Arpeps4, caption: "Concept Graph Visualizer" },
+  //   ],
+  // },
+  // {
+  //   slug: "buslink",
+  //   title: "Buslink",
+  //   category: "AI TOOL",
+  //   year: "2026",
+  //   short: "A tool for students to analyze and visualize their research concepts. It's goal is to help you see where the holes are in your paper, fix it, and produce an overall better paper.",
+  //   cover: Arpeps_Logo,
+  //   preview: [
+  //     { src: Editorially1, caption: "Reader Homepage" },
+  //     { src: Editorially2, caption: "Project Details View" },
+  //     { src: Editorially3, caption: "Content Management" },
+  //   ],
+  //   problem:
+  //     "Most run trackers feel like spreadsheets. Casual runners wanted motivation and narrative, not just split times and pace charts.",
+  //   solution:
+  //     "Designed an app where each week becomes an illustrated 'chapter'. Runs sync from HealthKit and the app procedurally renders an animated weekly recap.",
+  //   role: "Solo developer and designer — shipped to TestFlight with 1,200 beta users.",
+  //   challenges: [
+  //     "Smooth procedural animation on lower-end Android devices.",
+  //     "Background sync and battery cost.",
+  //     "Designing an onboarding that didn't ask for everything up front.",
+  //   ],
+  //   tech: ["React", "Javascript", "CSS3", "Supabase", "Firebase Hosting"],
+  //   github: "https://github.com",
+  //   live: "https://example.com",
+  //   demoUrl: "https://example.com",
+  //   screenshots: [
+  //     { src: Arpeps2, caption: "Paper Analysis" },
+  //     { src: Arpeps3, caption: "Paper View" },
+  //     { src: Arpeps4, caption: "Concept Graph Visualizer" },
+  //   ],
+  // },
 ];
 
 export const getProject = (slug: string) => projects.find((p) => p.slug === slug);
