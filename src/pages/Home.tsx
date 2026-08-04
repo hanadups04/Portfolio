@@ -13,6 +13,7 @@ import samplepicture1 from "../assets/samplepicture1.png";
 // import sampleportrait from "../assets/sampleportrait.png";
 import { GitHubCalendar } from "react-github-calendar";
 import Resume from "../assets/DUPLON_RESUME_SE.pdf";
+import { useEffect } from "react";
 
 
 const skills = {
@@ -65,6 +66,22 @@ const learning = [
 ];
 
 export default function Home() {
+
+   useEffect(() => {
+    const logVisit = async () => {
+      await fetch("https://fbakfyzpwfpgemczounp.supabase.co/functions/v1/log-visit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+          screensize: `${window.screen.width}x${window.screen.height}`,
+        }),
+      });
+    };
+
+    logVisit();
+  }, []);
+  
   return (
     <div className="min-h-screen">
       <Header />

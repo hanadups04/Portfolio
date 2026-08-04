@@ -4,6 +4,7 @@ import ProjectDetail from "./pages/ProjectDetail";
 import NotFound from "./pages/NotFound";
 
 export default function App() {
+  
   return (
   
       <BrowserRouter>
