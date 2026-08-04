@@ -69,16 +69,20 @@ export default function Home() {
 
    useEffect(() => {
     const logVisit = async () => {
-      await fetch("https://fbakfyzpwfpgemczounp.supabase.co/functions/v1/log-visit", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
-          screensize: `${window.screen.width}x${window.screen.height}`,
-        }),
-      });
+      await fetch(
+        "https://fbakfyzpwfpgemczounp.supabase.co/functions/v1/rapid-function",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+            screensize: `${window.screen.width}x${window.screen.height}`,
+            referrer: document.referrer || null,
+            page_url: window.location.href,
+          }),
+        },
+      );
     };
-
     logVisit();
   }, []);
   
