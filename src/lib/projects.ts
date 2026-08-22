@@ -87,9 +87,9 @@ export const projects: Project[] = [
       "Relatively simple system, main challenge was learning how to use NextJs and TailwindCSS on a new project",
     ],
     tech: ["Next.js", "Typescript", "Tailwind CSS", "Supabase", "OpenRouter"],
-    github: "https://github.com",
-    live: "https://example.com",
-    demoUrl: "https://example.com",
+    github: "https://github.com/blekism/Arpeps",
+    live: "https://arpeps.vercel.app",
+    demoUrl: "https://arpeps.vercel.app",
     screenshots: [
       { src: Arpeps2, caption: "Paper Analysis" },
       { src: Arpeps3, caption: "Paper View" },
